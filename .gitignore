@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.turbo/
+.expo/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+apps/orion-api/prisma/*.db
+
+# Generated
+packages/graphql/src/generated.ts
+
+#CLAUDE
+CLAUDE.md
